@@ -98,7 +98,7 @@ footer{padding:32px 0;text-align:center;color:var(--mute);font-size:14px}
    <li><a href="#contact">Contact</a></li>
   </ul>
   <!-- Put your CV file in the same folder and name it CV_Alda_Ellsa.pdf -->
-  <a class="btn primary" href="CV_Alda_Ellsa.pdf" download>Download CV</a>
+  <a class="btn primary" href="https://drive.google.com/file/d/1p9NRr2y-F4KpChmwdZUDgWT_O-ZzwxSx/view?usp=sharing" download>Download CV</a>
  </nav>
 </header>
 
@@ -153,9 +153,9 @@ footer{padding:32px 0;text-align:center;color:var(--mute);font-size:14px}
    <h3>Data Analyst Intern</h3>
    <div class="org">PT United Tractors Tbk., Jakarta · Sep to Dec 2024</div>
    <ul>
-    <li>Built the Pojok Sehat dashboard to monitor service division employee health every month, covering blood pressure, blood sugar and BMI.</li>
-    <li>Used Excel, Figma and Looker Studio to turn health check records into a view that helps the division spot health risks and review its health program.</li>
-    <!-- TODO: add one result, e.g. number of employees covered or time saved on reporting -->
+    <li>Built the Pojok Sehat dashboard prototype for monitoring service division employee health every month, covering blood pressure, blood sugar and BMI.</li>
+    <li>Used Excel, Figma and Looker Studio to turn health check records into a view that demonstrates how the division could spot health risks and review its health program.</li>
+    <li>Prototyped the dashboard layout in Figma before implementation, enabling quick iteration on the design.</li>
    </ul>
   </li>
   <li>
@@ -179,39 +179,76 @@ footer{padding:32px 0;text-align:center;color:var(--mute);font-size:14px}
 <section id="projects"><div class="wrap">
  <h2>Projects</h2>
  <div class="projects">
+
+ <!--Dashboard Pojok Sehat-->   
   <article class="proj">
-   <h3>Pojok Sehat Service Division Dashboard</h3>
-   <div class="ctx">Internship, PT United Tractors Tbk.</div>
-   <dl>
+  <a class="proj-img" href="https://lookerstudio.google.com/reporting/81da8e7f-0a49-4e61-8382-3cc221f64583"
+     target="_blank" rel="noopener noreferrer" aria-label="Open the Pojok Sehat dashboard in Looker Studio">
+    <img src="dashboard_pojok_sehat.jpg"
+         alt="Dashboard Monitoring Pegawai Sehat, Pojok Sehat Service Division, di Looker Studio"
+         loading="lazy" width="420" height="320">
+  </a>
+  <h3>Pojok Sehat Service Division Dashboard</h3>
+  <div class="ctx">Internship, PT United Tractors Tbk.</div>
+  <dl>
     <dt>Problem</dt><dd>The service division needed a regular way to track employee health.</dd>
     <dt>Solution</dt><dd>A monthly dashboard of health indicators: blood pressure, blood sugar, BMI and other check records.</dd>
     <dt>Use</dt><dd>Identify potential health risks and evaluate the company's health program.</dd>
-   </dl>
-   <ul class="tags"><li>Excel</li><li>Figma</li><li>Looker Studio</li></ul>
-   <!-- TODO: add a screenshot (use anonymized data) -->
-  </article>
-  <article class="proj">
-   <h3>E-Commerce Data Analysis Dashboard</h3>
-   <div class="ctx">Dicoding: Belajar Analisis Data dengan Python</div>
-   <dl>
-    <dt>Problem</dt><dd>Business questions about a Brazilian e-commerce dataset.</dd>
-    <dt>Solution</dt><dd>Analysis in Python and an interactive Streamlit dashboard that answers each question.</dd>
-    <dt>Use</dt><dd>Shows the results in one place that anyone can explore.</dd>
-   </dl>
-   <ul class="tags"><li>Python</li><li>Excel</li><li>Streamlit</li><li>VS Code</li></ul>
-   <!-- TODO: add links to the live Streamlit app and the GitHub repo -->
-  </article>
-  <article class="proj">
-   <h3>LuxTrace</h3>
-   <div class="ctx">Capstone Project, Bangkit Academy</div>
-   <dl>
+  </dl>
+  <ul class="tags"><li>Excel</li><li>Figma</li><li>Looker Studio</li></ul>
+  <a class="proj-link" href="https://lookerstudio.google.com/reporting/81da8e7f-0a49-4e61-8382-3cc221f64583"
+     target="_blank" rel="noopener noreferrer">View live dashboard →</a>
+</article>
+
+ <!--Dashboard LuxTrace--> 
+<article class="proj">
+  <a class="proj-img" href="https://lookerstudio.google.com/reporting/c8028d42-344e-484d-9bb1-9223fbd304fa"
+     target="_blank" rel="noopener noreferrer" aria-label="Open the LuxTrace dashboard in Looker Studio">
+    <img src="dashboard_luxtrace.jpg"
+         alt="Dashboard Operational Product LuxTrace di Looker Studio"
+         loading="lazy" width="420" height="320">
+  </a>
+  <h3>LuxTrace</h3>
+  <div class="ctx">Capstone Project, Bangkit Academy</div>
+  <dl>
     <dt>Problem</dt><dd>Businesses struggle to keep supply chains traceable and customers' trust.</dd>
     <dt>Solution</dt><dd>A traceability platform with real-time visibility of raw material sourcing and supplier information.</dd>
     <dt>Use</dt><dd>Supports product quality checks and supply chain optimization.</dd>
-   </dl>
-   <ul class="tags"><li>Excel</li><li>BigQuery</li><li>Figma</li><li>Looker Studio</li></ul>
-  </article>
+  </dl>
+  <ul class="tags"><li>Excel</li><li>BigQuery</li><li>Figma</li><li>Looker Studio</li></ul>
+  <a class="proj-link" href="https://lookerstudio.google.com/reporting/c8028d42-344e-484d-9bb1-9223fbd304fa"
+     target="_blank" rel="noopener noreferrer">View live dashboard →</a>
+</article>
+
+ <!--Dashboard E-Commerce--> 
   <article class="proj">
+  <a class="proj-img" href="https://dashboard-e-commerce-public-dataset-by-aldaellsaf.streamlit.app"
+     target="_blank" rel="noopener noreferrer" aria-label="Open the E-Commerce dashboard on Streamlit">
+    <img src="dashboard_brazilian.jpg"
+         alt="Dashboard E-Commerce Data Analysis di Streamlit dengan pertanyaan bisnis dan visualisasi data"
+         loading="lazy" width="420" height="320">
+  </a>
+  <h3>E-Commerce Data Analysis Dashboard</h3>
+  <div class="ctx">Dicoding: Belajar Analisis Data dengan Python</div>
+  <dl>
+    <dt>Problem</dt><dd>Business questions about a Brazilian e-commerce dataset.</dd>
+    <dt>Solution</dt><dd>Analysis in Python and an interactive Streamlit dashboard that answers each question.</dd>
+    <dt>Use</dt><dd>Shows the results in one place that anyone can explore.</dd>
+  </dl>
+  <ul class="tags"><li>Python</li><li>Excel</li><li>Streamlit</li><li>VS Code</li></ul>
+  <a class="proj-link" href="https://dashboard-e-commerce-public-dataset-by-aldaellsaf.streamlit.app"
+     target="_blank" rel="noopener noreferrer">View live dashboard →</a>
+  <!-- TODO: tambahkan link ke repo GitHub -->
+</article>
+
+ <!--Web Urban Scholaria--> 
+  <article class="proj">
+    <!--<a class="proj-img" href="https://dashboard-e-commerce-public-dataset-by-aldaellsaf.streamlit.app" 
+     target="_blank" rel="noopener noreferrer" aria-label="Buka dashboard E-Commerce di Streamlit"> -->
+    <img src="web_urban_scholaria.jpg"
+         alt="Website Perizinan Pembangunan"
+         loading="lazy" width="420" height="320">
+  </a>
    <h3>Urban Scholaria</h3>
    <div class="ctx">Project Management final project · UI design</div>
    <dl>
@@ -225,11 +262,107 @@ footer{padding:32px 0;text-align:center;color:var(--mute);font-size:14px}
 
 <section id="certificates"><div class="wrap">
  <h2>Certificates</h2>
- <div class="certs">
-  <div class="panel"><h3>Machine Learning</h3><p>Bangkit Academy, 2024</p></div>
-  <div class="panel"><h3>Belajar Analisis Data dengan Python</h3><p>Dicoding</p></div>
+
+ <div class="certs-slider">
+  <button class="cert-nav prev" aria-label="Previously" type="button">&#10094;</button>
+
+  <div class="certs" id="certsTrack">
+   <div class="panel">
+    <h3>Machine Learning</h3>
+    <p>Bangkit Academy, 2024</p>
+    <img src="sertifikat_bangkit.jpg"
+         alt="Sertifikat Bangkit Machine Learning Cohort"
+         loading="lazy" width="450" height="320" draggable="false">
+   </div>
+
+   <div class="panel">
+    <h3>Machine Learning</h3>
+    <p>Coursera, 2024</p>
+    <img src="sertifikat_coursera.jpg"
+         alt="Sertifikat Machine Learning Coursera"
+         loading="lazy" width="450" height="320" draggable="false">
+   </div>
+
+   <div class="panel">
+    <h3>Data Analyst Intern</h3>
+    <p>PT United Tractors Tbk, 2024</p>
+    <img src="sertifikat_intern.jpg"
+         alt="Sertifikat Data Analyst Intern"
+         loading="lazy" width="450" height="320" draggable="false">
+   </div>
+  </div>
+
+  <button class="cert-nav next" aria-label="Berikutnya" type="button">&#10095;</button>
  </div>
 </div></section>
+
+<style>
+.certs-slider{ position:relative; }
+
+.certs{
+  display:flex;
+  gap:16px;
+  overflow-x:auto;
+  scroll-snap-type:x mandatory;
+  scroll-behavior:smooth;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+  cursor:grab;
+  padding:4px;
+}
+.certs::-webkit-scrollbar{ display:none; }
+.certs.dragging{ cursor:grabbing; scroll-behavior:auto; scroll-snap-type:none; user-select:none; }
+
+.certs .panel{
+  flex:0 0 min(480px, 85%);
+  scroll-snap-align:start;
+}
+.certs .panel img{ max-width:100%; height:auto; display:block; }
+
+.cert-nav{
+  position:absolute; top:50%; transform:translateY(-50%);
+  width:42px; height:42px; border:none; border-radius:50%;
+  background:rgba(0,0,0,.6); color:#fff; font-size:18px;
+  cursor:pointer; z-index:2;
+  opacity:0; transition:opacity .25s, background .2s;
+}
+.cert-nav:hover{ background:rgba(0,0,0,.85); }
+.cert-nav.prev{ left:-8px; }
+.cert-nav.next{ right:-8px; }
+.certs-slider:hover .cert-nav{ opacity:1; }
+
+@media (hover:none){ .cert-nav{ opacity:.7; } }
+</style>
+
+<script>
+(function(){
+  const track = document.getElementById('certsTrack');
+  const prev  = document.querySelector('.cert-nav.prev');
+  const next  = document.querySelector('.cert-nav.next');
+
+  const step = () => (track.querySelector('.panel')?.offsetWidth || 300) + 16;
+
+  prev.addEventListener('click', () => track.scrollBy({left: -step(), behavior:'smooth'}));
+  next.addEventListener('click', () => track.scrollBy({left:  step(), behavior:'smooth'}));
+
+  let isDown = false, startX = 0, startScroll = 0;
+  track.addEventListener('mousedown', e => {
+    isDown = true; track.classList.add('dragging');
+    startX = e.pageX; startScroll = track.scrollLeft;
+  });
+  window.addEventListener('mouseup', () => {
+    if(!isDown) return;
+    isDown = false; track.classList.remove('dragging');
+    const i = Math.round(track.scrollLeft / step());
+    track.scrollTo({left: i * step(), behavior:'smooth'});
+  });
+  window.addEventListener('mousemove', e => {
+    if(!isDown) return;
+    e.preventDefault();
+    track.scrollLeft = startScroll - (e.pageX - startX);
+  });
+})();
+</script>
 
 <section id="contact"><div class="wrap">
  <div class="contact">
@@ -238,12 +371,12 @@ footer{padding:32px 0;text-align:center;color:var(--mute);font-size:14px}
   <div class="links">
    <a class="btn primary" href="mailto:aldaellsaf@gmail.com">aldaellsaf@gmail.com</a>
    <a class="btn" href="https://www.linkedin.com/in/aldaellsa">LinkedIn</a>
-   <a class="btn" href="https://wa.me/6281231899022">WhatsApp</a>
+   <!-- <a class="btn" href="https://wa.me/6281231899022">WhatsApp</a> -->
    <!-- Add your GitHub link here when ready -->
   </div>
  </div>
 </div></section>
 </main>
-<footer>© 2026 Alda Ellsa Faradilla</footer>
+<footer>© Alda Ellsa Faradilla</footer>
 </body>
 </html>
